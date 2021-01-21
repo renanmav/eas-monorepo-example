@@ -16,7 +16,8 @@
   "eslintConfig": {
     "extends": "@acme/eslint-config",
     "ignorePatterns": [
-      "__generated__"
+      "__generated__",
+      "*.config.js"
     ]
   },
   "dependencies": {

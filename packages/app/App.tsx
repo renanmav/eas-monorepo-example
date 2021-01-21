@@ -1,4 +1,4 @@
-import { Paragraph, Strong } from "@acme/ui";
+import { Paragraph } from "@acme/ui";
 import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { StyleSheet, View } from "react-native";
@@ -6,9 +6,7 @@ import { StyleSheet, View } from "react-native";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Paragraph>
-        Hello from an <Strong>EAS</Strong> monorepo (ejected)
-      </Paragraph>
+      <Paragraph>Hello from an EAS monorepo (ejected)</Paragraph>
       <StatusBar style="auto" />
     </View>
   );
